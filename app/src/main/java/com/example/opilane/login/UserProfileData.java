@@ -1,13 +1,42 @@
 package com.example.opilane.login;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+/**
+ * Created by opilane on 21.03.2018.
+ */
 
-public class UserProfileData extends AppCompatActivity {
+public class UserProfileData {
+    public String eesNimi;
+    public  String pereNimi;
+    public String epost;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_profile_data);
+    public UserProfileData(String eesNimi, String pereNimi, String epost) {
+        this.eesNimi = eesNimi;
+        this.pereNimi = pereNimi;
+        this.epost = epost;
     }
+
+    public UserProfileData (){
+
+    }
+    public String getEesNimi(){
+        return eesNimi;
+    }
+    public String getEesNimi(String eesNimi){
+        this.eesNimi = eesNimi;
+    }
+    public String getPereNimi(){
+        return pereNimi;
+    }
+    public String getPereNimi(String pereNimi){
+        this.pereNimi = pereNimi;
+    }
+    public String getEpost(){
+        return epost;
+    }
+    public String getEpost(String epost){
+        this.epost = epost;
+
+    }
+
+
 }

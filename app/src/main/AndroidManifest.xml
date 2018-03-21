@@ -19,7 +19,6 @@
         <activity android:name=".PasswordActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserProfileActivity" />
-        <activity android:name=".UserProfileData"></activity>
     </application>
 
 </manifest>
