@@ -20,6 +20,10 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+        maven {
+            url "http://maven.google.com" //lisan google Maven repository TODO
+        }
     }
 }
 
