@@ -13,6 +13,16 @@
     android:orientation="vertical"
     tools:context="com.example.opilane.login.RegisterActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/profile_pic"
+        android:scaleType="fitCenter"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilt"/>
+
     <EditText
         android:id="@+id/eesNimi"
         android:layout_width="match_parent"

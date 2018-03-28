@@ -90,6 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
                        saadaKasutajaAndmed();
                        teade("Registreerimine õnnestus, teile saadeti kinnitus email!");
                        finish();
+                       firebaseAuth.signOut (); //logid välja, et saaksid valideerida ennast ning uuesti sisse logida
                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                     }
                     else {

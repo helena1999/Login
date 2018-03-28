@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Login</string>
-    <string name="email">email</string>
+    <string name="email">Email</string>
     <string name="password">salasõna</string>
     <string name="login">Logi sisse</string>
     <string name="unustatud">Unustasid salasõna?</string>
@@ -10,4 +10,7 @@
     <string name="eesnimi">Eesnimi</string>
     <string name="perenimi">Perekonnanimi</string>
     <string name="register">Registreeri</string>
+    <string name="logiv">Logi välja</string>
+    <string name="kasutaja">Kasutaja profiil</string>
+    <string name="pilt">Lisa pilt</string>
 </resources>

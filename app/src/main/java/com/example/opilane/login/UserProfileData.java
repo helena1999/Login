@@ -21,19 +21,19 @@ public class UserProfileData {
     public String getEesNimi(){
         return eesNimi;
     }
-    public String getEesNimi(String eesNimi){
+    public void getEesNimi(String eesNimi){
         this.eesNimi = eesNimi;
     }
     public String getPereNimi(){
         return pereNimi;
     }
-    public String getPereNimi(String pereNimi){
+    public void getPereNimi(String pereNimi){
         this.pereNimi = pereNimi;
     }
     public String getEpost(){
         return epost;
     }
-    public String getEpost(String epost){
+    public void getEpost(String epost){
         this.epost = epost;
 
     }
