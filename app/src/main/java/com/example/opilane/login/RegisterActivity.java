@@ -165,10 +165,7 @@ public class RegisterActivity extends AppCompatActivity {
                     else {
                         teade("Kinnitus emaili ei saadetud!");
                     }
-
                 }
-
-
             });
         }
     }
@@ -183,3 +180,4 @@ public class RegisterActivity extends AppCompatActivity {
         databaseReference.setValue(userProfileData);
     }
 }
+//komm
